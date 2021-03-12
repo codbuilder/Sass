@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#grid {
+  float: left;
+  width: 100%;
+}
+#grid > div {
+  color: red;
+  float: left;
+  background: #eee;
+  margin-bottom: 0.5%;
+  height: 150px;
+  width: 24.625%;
+  margin-right: 0.5%;
+}
+#grid > div:nth-child(4n) {
+  margin-right: 0;
+}
+
+.some-class-24 {
+  width: 74px;
+  height: 240px;
+}
+
+.some-class-25 {
+  width: 75px;
+  height: 250px;
+}
+
+.some-class-26 {
+  width: 76px;
+  height: 260px;
+}
+
+.some-class-27 {
+  width: 77px;
+  height: 270px;
+}
+
+.some-class-28 {
+  width: 78px;
+  height: 280px;
+}
