@@ -11,7 +11,7 @@
 #grid > div {
   color: green;
   float: left;
-  background: #eee;
+  background-color: #eee;
   margin-bottom: 0.5%;
   height: 150px;
   width: 24.625%;
