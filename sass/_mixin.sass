@@ -13,3 +13,15 @@
 
 	&:nth-child(#{$cols}n)
 		margin-right: 0
+
+@mixin link($linkLink, $linkVisited)
+	a
+		color: $linkLink
+
+		&:hover
+			color: darken($linkLink, 10)
+
+		&:active
+			color: blue
+
+		@content

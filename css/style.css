@@ -21,3 +21,28 @@
 #grid > div:nth-child(4n) {
   margin-right: 0;
 }
+
+a {
+  color: green;
+}
+
+a:hover {
+  color: #004d00;
+}
+
+a:active {
+  color: blue;
+}
+
+.header a {
+  color: green;
+  background: #ccc;
+}
+
+.header a:hover {
+  color: #004d00;
+}
+
+.header a:active {
+  color: blue;
+}
